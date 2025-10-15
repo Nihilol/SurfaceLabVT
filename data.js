@@ -1,6 +1,44 @@
 var APP_DATA = {
   "scenes": [
     {
+      "id": "1-entrance",
+      "name": "Entrance",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1680,
+      "initialViewParameters": {
+        "yaw": -0.05638756044904625,
+        "pitch": 0.045096890216001384,
+        "fov": 1.3378744097411812
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.03445246594428397,
+          "pitch": 0.03385440534482065,
+          "rotation": 0,
+          "target": "2-gowning"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
       "id": "0-desiccators",
       "name": "Desiccators",
       "levels": [
@@ -50,44 +88,6 @@ var APP_DATA = {
           "text": "Fumehood for dicing wafers and chemical cleaning of samples."
         }
       ]
-    },
-    {
-      "id": "1-entrance",
-      "name": "Entrance",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1680,
-      "initialViewParameters": {
-        "yaw": -0.05638756044904625,
-        "pitch": 0.045096890216001384,
-        "fov": 1.3378744097411812
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.03445246594428397,
-          "pitch": 0.03385440534482065,
-          "rotation": 0,
-          "target": "2-gowning"
-        }
-      ],
-      "infoHotspots": []
     },
     {
       "id": "2-gowning",
