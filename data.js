@@ -1,7 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-entrance",
+      "id": "1-entrance",
       "name": "Entrance",
       "levels": [
         {
@@ -39,7 +39,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "1-desiccators",
+      "id": "0-desiccators",
       "name": "Desiccators",
       "levels": [
         {
